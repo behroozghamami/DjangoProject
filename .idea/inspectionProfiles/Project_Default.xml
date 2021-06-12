@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssInvalidPropertyValue" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="format" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="models" />
+          <option value="app.core.admin.core" />
+          <option value="app.core.tests.test_model.core" />
+          <option value="core" />
+          <option value="app.core.admin.UserAdmin" />
+          <option value="app.profiles_api.admin.profiles_api" />
+          <option value="app.profiles_api.urls.profiles_api" />
+          <option value="app.profiles_api.views.profiles_api" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
